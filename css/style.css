@@ -1092,14 +1092,14 @@ support for no js
 }
 .fes2-main-text-cont {
   margin: 0 auto;
-  padding: 145px 50px 140px 50px;
+  padding: 80px 50px 140px 50px;
   max-width:500px; 
 }
 .fes2-text-cont{
 	margin-top:30px;
 }
 .fes2-img {
-  background: url(../images/fes2.jpg) 50% 50% no-repeat;
+  background: url(../images/KONVERSYON_intro/IND.png) 50% 50% no-repeat;
   
   width: 100%;
   display: block;	
@@ -11218,4 +11218,10 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 }
 .shop-ad-height {
   height:200px;
+}
+
+/* Css by Shahadat Rafi */
+.ind_flex-center{
+  display: flex;
+  align-items: center;
 }
