@@ -41,6 +41,9 @@
   <!-- ICONS ELEGANT FONT & FONT AWESOME & LINEA ICONS  -->
   <link rel="stylesheet" href="css/icons-fonts.css">
 
+  <!-- FONT AWESOME LINK -->
+  <script src="https://kit.fontawesome.com/9629817dc5.js" crossorigin="anonymous"></script>
+
   <!--  CSS THEME -->
   <link rel="stylesheet" href="css/style.css">
 
@@ -1783,29 +1786,56 @@
       <!-- COTACT SECTION -->
 
       <div class="page-section">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div data-address="580 California Street, San Francisco, CA" id="google-map"></div>
-            
-            <!-- *This is an example of using latitude and longitude if you need to use them instead of an address. Read more in the documentation.* -->
-            <div data-latitude="37.792888" data-longitude="-122.404041" id="google-map"></div> 
+
+            <div class="col-md-6 left-50">
+              <div class="fes2-main-text-cont">
+                <div class="title-fs-45">
+                  <br>
+                  <span class="bold">Contact Us</span>
+                </div>
+                <div class="line-3-100"></div>
+                <div class="fes2-text-cont">KONVERSYON is part of the NEOTERIC Group.
+
+                  Join us at KONVERSYON, and let's transform the real estate landscape together. Prepare for an
+                  unparalleled experience as we revolutionize lead conversion and elevate your business to new heights.
+                  Partner with KONVERSYON and "Convert Leads to Customers."
+                </div>
+                <!-- <div class="mt-30">
+                  <a class="button medium thin hover-dark" href="https://1.envato.market/GVZ26">BUY NOW</a>
+                </div> -->
+              </div>
+            </div>
+
+            <div class="col-md-6 right-50 wow fadeInLeft">
+
+              <div class="ads-img-cont">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4384.07423674071!2d91.80551014200272!3d22.483451913430553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd73b69c76fcd%3A0x3bc834fd695ca9b4!2sShahadat%20Rafi!5e0!3m2!1sen!2sbd!4v1687108796355!5m2!1sen!2sbd"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+
+            </div>
+
           </div>
         </div>
       </div>
-      
+
       <!-- CONTACT INFO SECTION 1 -->
       <div id="contact-link" class="page-section p-80-cont grey-light-bg">
         <div class="container">
           <div class="row">
-          
+
             <div class="col-md-4 col-sm-6">
               <div class="cis-cont">
                 <div class="cis-icon">
-                  <div class="icon icon-basic-map"></div>
+                  <div><i class="fa-brands fa-whatsapp"></i></div>
                 </div>
                 <div class="cis-text">
-                  <h3><span class="bold">ADDRESS</span></h3>
-                  <p>790 FOLSOM AVE, SAN FRANCISCO</p>
+                  <h3><span class="bold">WHATSAPP</span></h3>
+                  <p>+146943615</p>
                 </div>
               </div>
             </div>
@@ -1831,64 +1861,109 @@
                 </div>
               </div>
             </div>
-            
+
           </div>
-        </div>        
-      </div>        
-       
+        </div>
+      </div>
+
       <!-- CONTACT FORM -->
       <div class="page-section pt-110-b-80-cont">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-                              
-                <!-- CONTACT FORM -->
-                <div class="">
-                  <form id="contact-form" action="php/contact-form.php" method="POST">
-                  
-                    <div class="row">
-                    
-                      <div class="col-md-6">
-                        <div class="row">
-                    
-                          <div class="col-md-12 mb-23">
-                            <!-- <label>Your name *</label> -->
-                            <input type="text" value="" data-msg-required="Please enter your name" maxlength="100" class="controled " name="name" id="name" placeholder="NAME" required>
-                          </div>
-                           
-                          <div class="col-md-12 mb-23">
-                            <!-- <label>Your email address *</label> -->
-                            <input type="email" value="" data-msg-required="Please enter your email address" data-msg-email="Please enter a valid email address" maxlength="100" class="controled " name="email" id="email" placeholder="EMAIL" required>
-                          </div>
-                        
+
+              <!-- CONTACT FORM -->
+              <div class="">
+                <form id="contact-form" action="php/contact-form.php" method="POST">
+
+                  <div class="row">
+
+                    <div class="col-md-6">
+                      <div class="row">
+
+                        <div class="col-md-12 mb-23">
+                          <!-- <label>Your name *</label> -->
+                          <input type="text" value="" data-msg-required="Please enter your name" maxlength="100"
+                            class="controled " name="name" id="name" placeholder="NAME" required>
                         </div>
-                      </div>
-                    
-                      <div class="col-md-6">
-                        <!-- <label>Message *</label> -->
-                        <textarea maxlength="5000" data-msg-required="Please enter your message" rows="4" class="controled " name="message" id="message" placeholder="MESSAGE" required></textarea>
-                        
+
+                        <div class="col-md-12 mb-23">
+                          <!-- <label>Your Phone *</label> -->
+                          <input type="tel" value="" data-msg-required="Please enter your phone number" maxlength="100"
+                            class="controled " name="phone" id="phone" placeholder="PHONE" required>
+                        </div>
+
+                        <div class="col-md-12 mb-23">
+                          <!-- <label>Your email address *</label> -->
+                          <input type="email" value="" data-msg-required="Please enter your email address"
+                            data-msg-email="Please enter a valid email address" maxlength="100" class="controled "
+                            name="email" id="email" placeholder="EMAIL" required>
+                        </div>
+
+                        <div class="col-md-12 mb-23 w-100 ">
+                          <select class="" aria-label=" example" id="select-project">
+                            <option selected disabled>Select Your Program</option>
+                            <option value="1">North Islands view</option>
+                            <option value="2">Kalodyne Bay</option>
+                            <option value="3">Coconut Grove</option>
+                            <option value="1">The Kempt</option>
+                            <option value="2">Frederika Villas</option>
+                            <option value="3">Botanika</option>
+                            <option value="3">All our programs</option>
+                          </select>
+                          
+                          <select class="ml-20" aria-label=" example" id="select-project">
+                            <option selected disabled>Select Language</option>
+                            <option value="1">English</option>
+                            <option value="2">English</option>
+                            <option value="3">English</option>
+                            <option value="1">English</option>
+                            <option value="2">English</option>
+                            <option value="3">English</option>
+                            <option value="3">English</option>
+                          </select>
+                          
+                          <select class="ml-20" aria-label=" example" id="select-project">
+                            <option selected disabled>Select Your Budget</option>
+                            <option value="1">$100 - $200</option>
+                            <option value="2">$100 - $200</option>
+                            <option value="3">$100 - $200</option>
+                            <option value="1">$100 - $200</option>
+                            <option value="2">$100 - $200</option>
+                            <option value="3">$100 - $200</option>
+                            <option value="3">$100 - $200</option>
+                          </select>
+                        </div>
+  
                         <div class="text-right text-center-xxs">
-                          <input type="submit" value="SEND MESSAGE" class="button medium gray mt-40" data-loading-text="Loading...">
+                          <input type="submit" value="SEND MESSAGE" class="button medium gray mt-40"
+                            data-loading-text="Loading...">
                         </div>
-                        
+
                       </div>
-                      
                     </div>
 
-                  </form>	
-                  <div class="alert alert-success hidden animated fadeIn" id="contactSuccess" >
-                    <strong>Success!</strong> Your message has been sent to us.
+                    <div class="col-md-6">
+                      <!-- <label>Message *</label> -->
+                      
+
+                    </div>
+
                   </div>
-                
-                  <div class="alert alert-danger hidden animated shake" id="contactError">
-                    <strong>Error!</strong> There was an error sending your message.
-                  </div>
+
+                </form>
+                <div class="alert alert-success hidden animated fadeIn" id="contactSuccess">
+                  <strong>Success!</strong> Your message has been sent to us.
                 </div>
-              
+
+                <div class="alert alert-danger hidden animated shake" id="contactError">
+                  <strong>Error!</strong> There was an error sending your message.
+                </div>
+              </div>
+
 
             </div>
-              
+
           </div>
         </div>
       </div>
@@ -1972,7 +2047,7 @@
             </div>
           </div> -->
 
-          
+
 
           <div class="footer-2-copy-cont clearfix">
             <!-- Social Links -->
