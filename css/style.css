@@ -2158,7 +2158,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   will-change: background-position;
   margin: 0;
   padding: 0;
-  background: #2c2c2c url(../images/work-proc-bg.jpg) fixed;
+  background: #2c2c2c url(../images/KONVERSYON_intro/service-bg.jpg) fixed;
   color:#f1f1f1;
 }
 .work-proc-1-bg h3, .work-proc-1-bg .icon  {
@@ -11221,7 +11221,6 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 }
 
 /* Css by Shahadat Rafi */
-.ind_flex-center{
-  display: flex;
-  align-items: center;
+.menu_language{
+  margin: 0 0 17px 0;
 }
