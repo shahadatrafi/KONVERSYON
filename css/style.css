@@ -3328,7 +3328,7 @@ select.input-border {
   position: relative;
 }
 #main-menu .sub {
-  background: #4B4E53;
+  background: #fff;
   -webkit-box-shadow: 0 4px 5px rgba(0,0,0, .2);
   box-shadow: 0 4px 5px rgba(0,0,0, .2);
   display: none;
@@ -3349,7 +3349,7 @@ select.input-border {
   animation: fadeIn .4s;
 }
 #main-menu .sub a {
-  color: #d3d3d3;
+  color: #4b4e53;
   display: block;
   text-decoration: none;
   min-width: 71px;
@@ -3361,7 +3361,7 @@ select.input-border {
   /* -ms-transition: none; */
 }
 #main-menu .sub a:hover {
-	color: #fff;
+	color: #111;
 	padding-left:7px;
 	-webkit-transition: color .2s ease 0s, padding .3s ease 0s;
 	-o-transition: color .2s ease 0s, padding .3s ease 0s;
