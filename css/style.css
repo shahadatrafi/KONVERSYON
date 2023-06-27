@@ -3352,7 +3352,7 @@ select.input-border {
   color: #d3d3d3;
   display: block;
   text-decoration: none;
-  min-width: 160px;
+  min-width: 71px;
   padding:9px;
   padding-left:0; 
   -webkit-transition: color .3s ease 0s, padding .3s ease 0s; 
