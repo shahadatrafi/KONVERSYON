@@ -1099,7 +1099,7 @@ support for no js
 	margin-top:30px;
 }
 .fes2-img {
-  background: url(../images/KONVERSYON_intro/IND.png) 50% 50% no-repeat;
+  background: url(../images/KONVERSYON_intro/adrianne-tulod-v6FfAkySCA8-unsplash.avif) 50% 50% no-repeat;
   
   width: 100%;
   display: block;	
@@ -3823,7 +3823,8 @@ header.affix  .logo-2, .header.affix.no-transparent .logo-2 {
 	transition: all .4s ease 0s;
 }
 .logo-img {
-  height: 42px;
+  height: 70px;
+  width: 70px;
 }
 .logo-img.logo-color-change {
   -webkit-filter: brightness(0) invert(1);
@@ -3851,7 +3852,7 @@ header.affix .logo .logo-img {
 	transition: all .4s ease 0s;
 }
 .header.no-transparent .logo-2 {
-	padding:26px 0 25px 0;
+	padding:12px 0 12px 0;
 }
 
 /* #BREADCRUMB 
