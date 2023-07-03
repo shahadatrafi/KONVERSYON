@@ -2158,7 +2158,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   will-change: background-position;
   margin: 0;
   padding: 0;
-  background: #2c2c2c url(../images/KONVERSYON_intro/service-bg.jpg) fixed;
+  background: #2c2c2c url(../images/KONVERSYON_intro/solutions/isaac.avif) fixed;
   color:#f1f1f1;
 }
 .work-proc-1-bg h3, .work-proc-1-bg .icon  {
@@ -3238,8 +3238,8 @@ select.input-border {
 	line-height:20px;
 }
 #main-menu .navbar .nav > li > a {
-	padding:38px 3px 5px 3px;
-	margin: 0 12px 17px 12px;
+	padding:26px 3px 5px 3px;
+	margin: 12px 12px 17px 12px;
 	border-bottom: 2px solid rgba(45,78,83,0);
 	color:#4b4e53;
   letter-spacing:2px;
@@ -3261,7 +3261,7 @@ select.input-border {
 }
 .affix.header-1 #main-menu .navbar .nav > li.current > a{
   margin-bottom: 13px;
-	padding: 20px 3px 5px 3px;
+	padding: 30px 3px 5px 3px;
 	border-color:rgba(75,78,83,.5); 
 }
 .affix.header-1.black-header #main-menu .navbar .nav > li.current > a{
@@ -11224,4 +11224,9 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 /* Css by Shahadat Rafi */
 .menu_language{
   margin: 0 0 17px 0;
+}
+
+ol, ul {
+  margin-top: 9px;
+  margin-bottom: -12px;
 }
