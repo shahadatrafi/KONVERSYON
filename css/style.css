@@ -3255,7 +3255,7 @@ select.input-border {
 	border-bottom: 2px solid rgba(45,78,83,1);
 	color:#4b4e53; 
 }
-.black-header #main-menu .navbar .nav > li.current > a, .header-black-white #main-menu .navbar .nav > li.current > a {
+.black-header #main-menu .navbar .nav > li.current > a,.header-black-white #main-menu .navbar .nav > li.current > a {
 	border-bottom: 2px solid rgba(255,255,255,1);
 	color:#fff; 
 }
