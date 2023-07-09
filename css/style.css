@@ -3336,6 +3336,7 @@ select.input-border {
   padding: 10px 10px 10px 24px;
   position: absolute;
   z-index: 905;
+  margin-left: 100px;
 }
 #main-menu .sub li {
   font-size: 12px;
@@ -11229,4 +11230,7 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 ol, ul {
   margin-top: 9px;
   margin-bottom: -12px;
+}
+.fes2-text-cont{
+  text-align: justify;
 }
