@@ -2158,7 +2158,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   will-change: background-position;
   margin: 0;
   padding: 0;
-  background: #2c2c2c url(../images/KONVERSYON_intro/solutions/solutions.jpg) fixed;
+  background: #2c2c2c url(../images/KONVERSYON_intro/solutions/solutions.avif) fixed;
   color:#f1f1f1;
 }
 .work-proc-1-bg h3, .work-proc-1-bg .icon  {
@@ -11213,10 +11213,44 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 .equal-height {
   height:473px;
 }
+@media only screen and (max-width: 1000px){
+  .fes2-main-text-cont {
+    margin: 0 auto;
+    padding: 0 50px 0 50px !important;
+    max-width: 700px !important;
+}
+.equal-height {
+  height:365px;
+}
+.intro-padding .fes1-cont{
+  padding-top:0px ;
+}
+.intro-padding .title-fs-60{
+  margin-top: -200px;
+}
+iframe {
+  width: 100%;
+}
+}
 @media only screen and (max-width: 768px){
   .equal-height {
     height:320px;
   }
+  #rs-fullscr{
+    height: 70% !important;
+  }
+  .mb-140{
+    margin-bottom: 0px;
+  }
+  .intro-padding .fes1-cont{
+    padding-top:20px ;
+  }
+  .intro-padding .title-fs-60 {
+    margin-top: -120px;
+}
+iframe {
+  width: 100%;
+}
 }
 .shop-ad-height {
   height:200px;
