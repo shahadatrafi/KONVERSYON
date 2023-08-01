@@ -1092,7 +1092,7 @@ support for no js
 }
 .fes2-main-text-cont {
   margin: 0 auto;
-  padding: 80px 50px 140px 50px;
+  padding: 0px 50px 140px 50px;
   max-width:500px; 
 }
 .fes2-text-cont{
@@ -1100,6 +1100,21 @@ support for no js
 }
 .fes2-img {
   background: url(../images/KONVERSYON_intro/adrianne-tulod-v6FfAkySCA8-unsplash.avif) 50% 50% no-repeat;
+  
+  width: 100%;
+  display: block;	
+  position: relative;
+  background-size: cover;
+     
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.fes2-img-intro {
+  background: url(/images/KONVERSYON_intro/intro.jpg) 50% 50% no-repeat;
   
   width: 100%;
   display: block;	
@@ -10558,8 +10573,8 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 .fes2-text-cont{
 	margin-top:30px;
   font-family: 'Lato',Arial,Helvetica,sans-serif;
-	font-size: 16px;
-	line-height: 25px;
+	font-size: 24px;
+	line-height: 30px;
   font-weight: 500;
 }
 .color-dark{
@@ -11267,4 +11282,91 @@ ol, ul {
 }
 .fes2-text-cont{
   text-align: justify;
+}
+
+/* .banner {
+  background-image: url('/images/KONVERSYON_intro/ii/slider-bg-2.avif');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 110px;
+} */
+
+.banner {
+  position: relative;
+  background-image: url('/images/KONVERSYON_intro/ii/slider-bg-2.avif');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 110px;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* Adjust the opacity (0.5 for 50% opacity) and color as needed */
+}
+
+.banner h1 {
+  font-size: 90px;
+  margin-bottom: 20px;
+  color: #fff !important; 
+}
+
+.banner p {
+  font-size: 22px;
+  margin-bottom: 30px;
+  letter-spacing: 10px;
+
+}
+
+.banner a {
+  color: #fff !important;
+  font-weight: bold;
+  width: 30%;
+}
+
+/* intro section */
+
+#intro{
+  margin: 110px 0 110px 0;
+}
+
+#whatsapp-btn {
+	position: fixed;
+	bottom: 16px;
+  right: 19px;
+	padding:0;
+	margin:0;
+	z-index: 20;
+}
+#whatsapp-btn a {
+	text-decoration: none;
+	display: block;
+	color:#4b4e53;
+  font-size:34px;
+	z-index:999;
+}
+#whatsapp-btn a:hover {
+	color:#97999c;
+}
+
+html{
+  scroll-behavior: smooth
 }
