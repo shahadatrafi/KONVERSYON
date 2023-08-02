@@ -7931,6 +7931,7 @@ h2.portfolio-timeline-title {
 	  position: absolute;
 	  right: 0;
 	  top: 0;
+    margin-top: 13px;
 	}
 	.main-menu-container {
 		background-color: #4b4e53;
@@ -11366,6 +11367,13 @@ ol, ul {
 #whatsapp-btn a:hover {
 	color:#97999c;
 }
+
+/* Responsive Logo for tab */
+/* @media (min-width: 576px) and (max-width: 768px) {
+  .logo-img {
+    display: none;
+  }
+} */
 
 html{
   scroll-behavior: smooth
