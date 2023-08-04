@@ -10693,6 +10693,10 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 
 @media (max-width: 1024px){
   #rs-offset{height:152px;}
+  #main-menu .sub a {
+    color: #d3d3d3;
+    
+}
 }
 @media (max-width: 767px) and (min-width: 480px){
   .container-2, .container-fluid.fes1-cont {
@@ -11343,7 +11347,7 @@ ol, ul {
   background-image: url('/images/KONVERSYON_intro/ii/slider-bg-2.avif');
   background-size: cover;
   background-position: center;
-  height: 600px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11373,7 +11377,7 @@ ol, ul {
   font-size: 22px;
   margin-bottom: 30px;
   letter-spacing: 10px;
-
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 100);
 }
 
 .banner a {
@@ -11388,6 +11392,18 @@ ol, ul {
   margin: 110px 0 110px 0;
 }
 
+/* spacial margin for section title */
+.sp-m-50{
+
+    margin: 50px auto;
+
+}
+.sp-m-title{
+
+    margin-top: -50px;
+
+}
+
 #whatsapp-btn {
 	position: fixed;
 	bottom: 16px;
@@ -11399,12 +11415,12 @@ ol, ul {
 #whatsapp-btn a {
 	text-decoration: none;
 	display: block;
-	color:#4b4e53;
+	color:#25d366;
   font-size:34px;
 	z-index:999;
 }
 #whatsapp-btn a:hover {
-	color:#97999c;
+	color:#25d366;
 }
 
 /* Responsive Logo for tab */
