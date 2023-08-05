@@ -10638,7 +10638,7 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
   .container-p-75-2 .container {width: 600px;}
 
   .w-form-sm{
-    max-width: 90%;
+    max-width: 90% ;
     
   }
   .logo-mobile{
@@ -10656,15 +10656,50 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
   }
 
   .banner p {
-    font-size: 12px !important;
-    margin-bottom: 30px;
-    letter-spacing: 7px;
+    font-size: 10px !important;
+    margin-bottom: 15px !important;
+    letter-spacing: 7px !important;
 }
 
 .sm-mb-125{
   margin-bottom: 125px;
   margin-top: -30px;
 }
+.sp-m-50 {
+  margin: 15px auto !important;
+  text-align: center;
+}
+.line-3-70 {
+  margin: 11px auto;
+}
+.fes2-img{
+  display: none;
+}
+.equal-height {
+  height: 310px !important;
+}
+.sp-m-15{
+  margin: 50px auto !important;
+}
+.sm-mb-125 {
+  margin-bottom: 80px !important;
+}
+
+.fes2-text-cont {
+  font-size: 18px;
+}
+
+.sm-grid-gut{
+margin: 5px auto;
+}
+.pb-70 {
+  padding-bottom: 40px;
+}
+.button.medium {
+
+  margin: 15px auto 0 -25px !important;
+}
+
 
 }
 @media (min-width: 768px) {
@@ -11423,12 +11458,7 @@ ol, ul {
 	color:#25d366;
 }
 
-/* Responsive Logo for tab */
-/* @media (min-width: 576px) and (max-width: 768px) {
-  .logo-img {
-    display: none;
-  }
-} */
+
 
 html{
   scroll-behavior: smooth
