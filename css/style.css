@@ -166,6 +166,10 @@ Site: https://themeforest.net/user/abcgomel/portfolio
 /* This only works with JavaScript, 
 if it's not present, don't show loader */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+
 #loader-overflow{
   display:block;
   width: 100%;
@@ -978,8 +982,7 @@ support for no js
 }
 .tp-caption.dark-black-60 {
 	color:#4b4e53;
-	font-family: 'Lato',Arial,Helvetica,sans-serif;
-	font-size: 75px;
+  font-family: 'Oswald', sans-serif;
 	line-height: 85px;
 	font-weight: 900;
 }
@@ -1092,8 +1095,8 @@ support for no js
 }
 .fes2-main-text-cont {
   margin: 0 auto;
-  padding: 0px 50px 140px 50px;
-  max-width:500px; 
+  padding: 0px 50px 40px 50px;
+  max-width:850px; 
 }
 .fes2-text-cont{
 	margin-top:30px;
@@ -10584,7 +10587,7 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 .fes2-text-cont{
 	margin-top:30px;
   font-family: 'Lato',Arial,Helvetica,sans-serif;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 30px;
   font-weight: 500;
 }
@@ -10651,7 +10654,7 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
     margin-bottom: 70px !important;
   }
   .banner-title-mobile{
-      margin: 0px 0 0 295px !important;
+      margin: 0px 0 0 250px !important;
       font-size: 45px !important;
   }
 
@@ -10660,7 +10663,9 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
     margin-bottom: 15px !important;
     letter-spacing: 7px !important;
 }
-
+.fes2-text-cont{
+  text-align: center !important;
+}
 .sm-mb-125{
   margin-bottom: 125px;
   margin-top: -30px;
@@ -10668,6 +10673,9 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 .sp-m-50 {
   margin: 15px auto !important;
   text-align: center;
+}
+.sp-m-40{
+text-align: center;
 }
 .line-3-70 {
   margin: 11px auto;
@@ -10695,10 +10703,10 @@ margin: 5px auto;
 .pb-70 {
   padding-bottom: 40px;
 }
-/* .button.medium {
+.btn-form {
 
   margin: 15px auto 0 -25px !important;
-} */
+}
 
 
 }
@@ -11392,20 +11400,21 @@ ol, ul {
   margin-bottom: 110px;
 }
 
-.banner::before {
+/* .banner::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2); /* Adjust the opacity (0.5 for 50% opacity) and color as needed */
-}
+  background-color: rgba(0, 0, 0, 0.2);
+} */
 
 .banner h1 {
   font-size: 90px;
   margin-bottom: 20px;
   color: #fff !important; 
+  font-family: oswald;
 }
 
 .banner p {
@@ -11429,9 +11438,10 @@ ol, ul {
 
 /* spacial margin for section title */
 .sp-m-50{
-
-    margin: 50px auto;
-
+    margin: 110px auto;
+}
+.sp-m-40{
+    margin: 80px auto;
 }
 .sp-m-title{
 
