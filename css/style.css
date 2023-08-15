@@ -10663,6 +10663,9 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
     margin-bottom: 15px !important;
     letter-spacing: 7px !important;
 }
+.banner a {
+  display: none !important;
+}
 .fes2-text-cont{
   text-align: center !important;
 }
@@ -11442,6 +11445,8 @@ ol, ul {
   color: #fff !important;
   font-weight: bold;
   width: 30%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+  letter-spacing: 6px;
 }
 
 /* intro section */
