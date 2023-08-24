@@ -228,7 +228,7 @@ if it's not present, don't show loader */
 /* #CSS RESET
  ===================================================================*/
 html, body, div, span, applet, object, iframe, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td {
-margin:  -1px 0;
+margin:  0px 0;
 padding: 0;
 border: 0;
 outline: 0;
@@ -3239,7 +3239,7 @@ select.input-border {
 }
 #main-menu .navbar .nav > li > a {
   font-size:12px;
-  color:#5c6066;
+  color:#d3d3d3 !important;
   z-index: 1;
   text-shadow: none;
   -webkit-transition: padding .4s ease 0s, border-color .6s ease 0s;
@@ -3248,6 +3248,9 @@ select.input-border {
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
   transform: translateZ(0);
+}
+#main-menu .navbar .nav > li > a:hover{
+  color: #fff !important;
 }
 .black-header #main-menu .navbar .nav > li > a, .header-black-white #main-menu .navbar .nav > li > a {
   color: rgba(255,255,255, .7);
@@ -3269,7 +3272,7 @@ select.input-border {
 	padding:26px 3px 5px 3px;
 	margin: 12px 12px 17px 12px;
 	border-bottom: 2px solid rgba(45,78,83,0);
-	color:#4b4e53;
+	color:#d3d3d3;
   letter-spacing:2px;
   background-color: transparent;
 }
@@ -3280,8 +3283,8 @@ select.input-border {
 .header-1 #main-menu .navbar .nav > li.current > a {
 	padding:38px 3px 5px 3px;
 	margin: 0 12px 17px 12px;
-	border-bottom: 2px solid rgba(45,78,83,1);
-	color:#4b4e53; 
+	border-bottom: 2px solid rgb(255, 255, 255) !important;
+	color:#fff; 
 }
 .black-header #main-menu .navbar .nav > li.current > a,.header-black-white #main-menu .navbar .nav > li.current > a {
 	border-bottom: 2px solid rgba(255,255,255,1);
@@ -3390,7 +3393,7 @@ select.input-border {
   /* -ms-transition: none; */
 }
 #main-menu .sub a:hover {
-	color: #111;
+	color: #fff;
 	padding-left:7px;
 	-webkit-transition: color .2s ease 0s, padding .3s ease 0s;
 	-o-transition: color .2s ease 0s, padding .3s ease 0s;
@@ -3752,7 +3755,7 @@ background:none;
 	z-index:29;
 }
 .header.no-transparent .header-wrapper{
-  background:#fff;
+  background:#303236;
 }
 .border-b{
   border-bottom: 1px solid #eee;
@@ -7905,7 +7908,7 @@ h2.portfolio-timeline-title {
 	  float: left;
 	  padding: 40px 17px 22px 5px; 
 	  font-size: 29px;
-	  color: #4b4e53;
+	  color: #d3d3d3;
 	  -webkit-transition: padding .4s ease 0s;
 	  -o-transition: padding .4s ease 0s;
 	  transition: padding .4s ease 0s;
@@ -11486,9 +11489,6 @@ ol, ul {
 #whatsapp-btn a:hover {
 	color:#25d366;
 }
-
-
-
 
 html{
   scroll-behavior: smooth
