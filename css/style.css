@@ -228,7 +228,7 @@ if it's not present, don't show loader */
 /* #CSS RESET
  ===================================================================*/
 html, body, div, span, applet, object, iframe, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td {
-margin: 0;
+margin:  -1px 0;
 padding: 0;
 border: 0;
 outline: 0;
@@ -285,8 +285,8 @@ body {
 	line-height: 25px;
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif; 
 	font-weight: normal;
-	color: #7e8082;
-	background-color: #fff;
+	color: #e7e7e7;
+	background-color: #303236;
 	-webkit-font-smoothing: antialiased !important;
 	-webkit-text-size-adjust: 100% !important;
 }
@@ -1132,7 +1132,7 @@ support for no js
   background-position: center center;
 }
 .title-fs-45 {
-	color:#4b4e53;
+	color:#fff;
 	font-family: 'Lato',Arial,Helvetica,sans-serif;
 	font-size: 45px;
 	line-height: 45px;
@@ -1157,7 +1157,7 @@ support for no js
 	margin-top:11px;
 	height:3px;
 	width:70px;
-	background:#4b4e53;
+	background:#fff;
 }
 
 /* #FEATURES 4 #NEW
@@ -1195,8 +1195,8 @@ support for no js
 	font-weight:300;
 	font-size:30px;
 	line-height:36px;
-	color:#4b4e53; 
-  border-left:#4b4e53 2px solid;
+	color:#fff; 
+  border-left:#fff 2px solid;
 }
 .section-title-2 {
   margin:0;
@@ -1407,7 +1407,7 @@ support for no js
 	background-color:#fff;
 }
 .grey-light-bg{
-	background-color:#eee;
+	background-color:#303236;
 }
 .grey-dark-bg, .header.no-transparent .header-wrapper.grey-dark-bg{
 	background-color:#303236;
@@ -2250,7 +2250,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   margin-top: 17px;
   font-size:45px;
   line-height:45px;
-  color:#4b4e53;
+  color:#f4f4f4;
   font-weight:100;
 }
 .count-title {
@@ -2388,7 +2388,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   color:#a3a6a8;
 }
 .post-prev-info a:hover{
-  color:#101010;
+  color:#fff;
 }
 .post-prev-text {
   padding-bottom:20px;
@@ -2570,7 +2570,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   position: absolute;
   top: 25px;
   left: 0;
-  color: #7e8082;
+  color: #fff;
   font-size: 35px;
 }
 .cis-text  {
@@ -2581,7 +2581,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   border-left:1px solid #bdbdbd;
 }
 .cis-text h3 {
-  color: #4b4e53;
+  color: #fff;
   font-weight: 300;
   font-size: 16px;
   line-height: 26px;
@@ -3047,7 +3047,7 @@ input, textarea, select, .login-select, .controled{
 	border-bottom: 1px solid #a6a7a9; 
 	border-radius: 0px;
   background:transparent;
-	color: #4b4e53;
+	color: #fff;
 	font-size: 14px;
 	margin: 0;
 	outline: medium none;
@@ -3120,10 +3120,10 @@ select.input-border {
 }
 .footer-2-copy {
   font-size:11px;
-  color:#7e8082;
+  color:#fff;
 }
 .footer-2-copy:hover {
-  color:#101010;
+  color:#eee;
 }
 .footer-2-soc-a a {
   font-size:16px !important;
@@ -6014,7 +6014,7 @@ button {
 	background-color:#575757;
 }
 a {
-  color: #4b4e53;
+  color: #fff;
 	outline: none !important;
   text-decoration: none;
   -webkit-transition: all .3s ease 0s;
@@ -11486,6 +11486,7 @@ ol, ul {
 #whatsapp-btn a:hover {
 	color:#25d366;
 }
+
 
 
 
